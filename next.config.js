@@ -2,7 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images: { domains: ["img.icons8.com"] },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "https://comfy-store.sfo3.cdn.digitaloceanspaces.com",
+      },
+    ],
+    domains: ["img.icons8.com"],
+  },
 };
 
 module.exports = nextConfig;
