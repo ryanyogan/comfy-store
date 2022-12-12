@@ -49,7 +49,7 @@ export const products: Product[] = [
       "Every table is unique, with varying grain pattern and natural colour shifts that are part of the charm of wood.",
     price: 429,
     slug: "dining-table-acacia",
-    images: ["/assets/products/p001.jpeg"],
+    images: ["/assets/products/p001.jpg"],
   },
   {
     id: "p002",
@@ -58,7 +58,7 @@ export const products: Product[] = [
     description: "",
     price: 699,
     slug: "table-oak-veneer-brown-stained",
-    images: ["/assets/products/p002.jpeg"],
+    images: ["/assets/products/p002.jpg"],
   },
   // Desks
   {
@@ -69,7 +69,7 @@ export const products: Product[] = [
       "This sturdy desk is guaranteed to outlast years of coffee and hard work. You get a generous work surface and a clever solution to keep cables in place underneath.",
     price: 419,
     slug: "desk-sit-stand-white-stained-oak-veneer-white",
-    images: ["/assets/products/p003.jpeg"],
+    images: ["/assets/products/p003.jpg"],
   },
   {
     id: "p004",
