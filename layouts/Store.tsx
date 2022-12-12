@@ -36,7 +36,7 @@ export default function StoreLayout({
         <title>{title}</title>
       </Head>
 
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col" data-testid="store-layout">
         <header className="sticky top-0 z-10 bg-white border-b">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between py-2">
@@ -59,7 +59,7 @@ export default function StoreLayout({
           </div>
         </header>
 
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 mb-12">{children}</main>
 
         <footer className="border-t">
           <div className="container mx-auto px-4">
