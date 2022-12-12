@@ -1,7 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import type { PropsWithChildren } from "react";
 import {
   companyLogo,
   companyName,
@@ -9,7 +5,11 @@ import {
   footerLinkLists,
   getCopyrightText,
   headerLinks,
-} from "util/constants";
+} from "lib/constants";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import type { PropsWithChildren } from "react";
 
 export interface StoreLayoutProps {
   title?: string;

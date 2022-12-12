@@ -7,7 +7,7 @@ import {
   footerLinkLists,
   getCopyrightText,
   headerLinks,
-} from "../../util/constants";
+} from "../../lib/constants";
 
 describe("layouts/store", () => {
   it("should render", () => {

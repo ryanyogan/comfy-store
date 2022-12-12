@@ -87,4 +87,4 @@ export const footerLinkLists = [
 ];
 
 export const getCopyrightText = () =>
-  `© ${new Date().getFullYear()} Comfort, Inc. All rights reserved. Powered by The Modern Dev.`;
+  `© ${new Date().getFullYear()} Yogan Dot Dev, Inc. All rights reserved. Powered by an idiot.`;
