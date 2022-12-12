@@ -29,7 +29,7 @@ export default function Home() {
               href="/products"
               className="bg-red-600 text-white hover:bg-white hover:text-red-600 px-9 py-3 uppercase transition max-w-max"
             >
-              Show now
+              Shop now
             </Link>
           </div>
         </div>

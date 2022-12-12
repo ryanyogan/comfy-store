@@ -13,7 +13,7 @@ describe("pages/Home", () => {
     const headingEl = within(heroSectionEl).getByRole("heading", { level: 1 });
     const linkEl = within(heroSectionEl).getByRole("link");
 
-    expect(imageEl).toHaveAttribute("src", "/asset/banner.jpg");
+    expect(imageEl).toHaveAttribute("src", "/assets/banner.jpeg");
     expect(imageEl).toHaveAttribute("alt", "Banner image");
 
     expect(headingEl).toHaveTextContent(description);
